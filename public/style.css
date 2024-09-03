@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.head {
+  background-color: #0e2a48;
+  color: white;
+  height: 100px;
+  overflow: hidden;
+}
+
+.buscar {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  padding: 2px;
+  width: 90%;
+ margin: auto;
+}
+
+.hola{
+  
+  border: 3px solid rgb(31, 17, 72);
+  border-radius: 20px;
+}
+.subti {
+  background-color: #0e2a48;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boton {
+  background-color: transparent;
+}
+
+.padre-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit-image {
+  width: 50%;
+  background-color: transparent;
+  overflow: hidden;
+}
+.fotoedit{
+  width: 100%;
+  
+}
+.content-form {
+  width: 100%;
+}
+.form-control{
+  border: 1px solid black;
+}
+h1, h2 {
+  text-align: center;
+}
+.botone_cerrar{
+  background-color: #0e2a48;
+  width: 50px;
+}
+.botoncrear{
+  background-color: #0e2a48;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+.btnsn{
+  background-color: #235d3a;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button {
+  background-color: #0e2a48;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: #c9d1d9;
+  color: black;
+}
+
+#contactList {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+  padding: 100px;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contactList {
+  max-width: 75%;
+  background-color: transparent;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content:center;
+}
+.datos{
+  
+  background-color: #cddee6;
+  width: 100%;
+  position: absolute;
+}
+.contact-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contenedores{
+  background-color: transparent;
+  width: 300px;
+  height: 320px;
+  border-radius: 20px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.cabeza{
+  width: 310px;
+  height: 120px;
+  background-color: #0e2a48;
+  display: flex;
+  flex-direction:row;
+}
+.imagen-perfil{
+  
+  width: 150px;
+  height: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.nombre-perfil{
+  background-color: transparent;
+  width:40 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contact-item-details {
+  flex-grow: 1;
+}
+.botones-dentro{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+.imagen-dentro-ta{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid rgb(106, 105, 105);
+}
+
+.datos-en{
+  background-color: transparent;
+  margin: 10px;
+}
+.datos-enn{
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: -2px;
+}
+.eliminar-btn{
+  background-color: rgb(145, 36, 36);
+  border-radius: 7px;
+}
+.datos-2{
+  
+  font-size: 15px;
+  margin-left: 8px;
+}
